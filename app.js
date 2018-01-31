@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
   var html='';
   html +="<body>";
   html += "<form action='/dl'  method='post' name='form1'>";
-  html += "yuetube url:</p><input type= 'text' name='url'>";
+  html += "youtube url:</p><input type= 'text' name='url'>";
   html += "<input type='submit' value='submit'>";
   html += "<INPUT type='reset'  value='reset'>";
   html += "</form>";
